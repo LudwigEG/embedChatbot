@@ -1,0 +1,61 @@
+*{padding:0;margin:0;}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	background-color:#CCC;
+}
+
+#chatBot{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#003399;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  vertical-align: middle;
+	box-shadow: 2px 2px 3px #999;
+}
+
+#chatBot:hover{
+  color: #e6f2ff;
+}
+
+#chatBotIcon{
+	margin-top:0.8rem;
+}
+
+#botDiv{
+	height: 0px;
+	position: fixed;
+	right:10px;
+	bottom: 5px;
+	z-index: 1000;
+	background-color: #fff;
+}
+
+#botTitleBar{
+	height: 38px;
+	width: 400px;
+	position:fixed;
+	cursor: pointer;
+}
+
+#chatMin{
+	float: right;
+	padding-top: 2px;
+	padding-right: 2px;
+	color: #003399;
+}
+
+iframe{
+	outline-color: #fff;
+	border-style:hidden;
+}
+
+.hide{
+  display: none;
+}
